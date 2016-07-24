@@ -26,6 +26,7 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
+			<?php echo file_get_contents(esc_url( home_url( '/' ) )."/wp-content/themes/rb-2016/images/logos1o.svg"); ?>
 			<?php
 			if ( is_front_page() && is_home() ) : ?>
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
