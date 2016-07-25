@@ -1,0 +1,10 @@
+{
+"name": "rb2016",
+  "description":"rb2016",
+"version": "0.0.1",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-sass": "~1.0.0",
+    "grunt-contrib-watch": "~0.4.4"
+  }
+}
