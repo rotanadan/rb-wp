@@ -16,9 +16,7 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="container">
 			<div class="site-info">
-				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'rb-2016' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'rb-2016' ), 'WordPress' ); ?></a>
-				<span class="sep"> | </span>
-				<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'rb-2016' ), 'rb-2016', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
+				Copyright <?php echo date('Y'); ?> by RenderBender
 			</div><!-- .site-info -->
 		</div>
 	</footer><!-- #colophon -->
