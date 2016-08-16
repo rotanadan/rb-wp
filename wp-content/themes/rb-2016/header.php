@@ -44,7 +44,9 @@
 				<div class="col-xs-8 col-md-6">
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 
-					<button class="menu-toggle visible-xs" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'rb-2016' ); ?></button>
+					<button id="mobilebutton" class="menu-toggle visible-xs" aria-controls="primary-menu" aria-expanded="false">
+						<span></span><span></span><span></span>
+					</button>
 					<div class="hidden-xs">
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 					</div>

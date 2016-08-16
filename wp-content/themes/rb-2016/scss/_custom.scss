@@ -42,6 +42,19 @@ header#masthead{
   }
 }
 
+#mobilebutton{
+  background:none;
+  border:none;
+  float:right;
+  span{
+    background-color:#FFF;
+    width:40px;
+    height:4px;
+    margin:0 0 3px 0;
+    display:block;
+  }
+}
+
 .home-rotator-holder{
   position:relative;
   height:300px;
