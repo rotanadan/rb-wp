@@ -29,7 +29,7 @@
 	<header id="masthead" class="site-header" role="banner">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-6">
+				<div class="col-xs-4 col-md-6">
 				<div class="site-branding">
 					<?php echo file_get_contents(esc_url( home_url( '/' ) )."/wp-content/themes/rb-2016/images/logos1o.svg"); ?>
 
@@ -41,7 +41,7 @@
 					endif; ?>
 				</div><!-- .site-branding -->
 				</div>
-				<div class="col-sm-6">
+				<div class="col-xs-8 col-md-6">
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 
 					<button class="menu-toggle visible-xs" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'rb-2016' ); ?></button>
@@ -54,5 +54,24 @@
 			</div><!-- end row -->
 		</div><!-- end wrapper -->
 	</header><!-- #masthead -->
+<div class="home-rotator-holder">
+	<div class="homeslide-content">
+		<div class="container">
+			<div class="homeslidebox">
+				612 - 877 - 2656
+			</div>
+			<div class="homeslidebox">
+				Computer-Aided Design (CAD) gets real!<br>
+				Bringing your digital creations into the real world of large displays, advertising, and marketing.
+			</div>
+
+		</div>
+
+	</div>
+	<div class="homeslide-1">
+
+	</div>
+</div>
+
 
 	<div id="content" class="site-content">
